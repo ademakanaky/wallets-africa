@@ -1,0 +1,180 @@
+- Create Wallet Response
+{
+
+"Response":
+	{
+		"ResponseCode":"200",
+		"Message":"Wallet created successfully"
+	},
+"Data":
+	{
+		"FirstName":"Segun",
+		"LastName":"Ibidokun",
+		"Email":"segunibidokun@gmail.com",
+		"PhoneNumber":"2347796452370",
+		"BVN":null,
+		"Password":"r9q39s93ir13rf64v7b8",
+		"DateOfBirth":"13-09-1988",
+		"DateSignedup":"4/27/2020 3:14:34 PM",
+		"AccountNo":"2152960046",
+		"Bank":"Providus Bank",
+		"AccountName":"Segun Ibidokun",
+		"AvailableBalance":0.0
+	}
+}
+
+- Retrieve Wallet Account Response
+
+{
+"Response":
+	{
+	"ResponseCode":"200",
+	"Message":"User NUBAN Retrieved"
+	},
+"Data":
+	{
+	"UserId":1597,
+	"Bank":"Providus Bank",
+	"AccountNumber":"2152960046",
+	"AccountName":"Segun Ibidokun"
+	}
+}
+
+- Verify Wallet BVN Response
+
+{
+
+"Message":"Success",
+"FirstName":"Segun",
+"LastName":"Ibidokun",
+"Email":"segunibidokun@gmail.com",
+"WalletBalance":0.00,
+"BVN":"null",
+"HasBVN":true,
+"PassCodeSet":false,
+"DisplayPicture":null,
+"Username":null,
+"UserProgress":4,
+"AccountType":0
+
+}
+
+- Get Wallet User Response
+
+{
+"Response":
+	{
+		"ResponseCode":"200",
+		"Message":"Successful"
+	},
+"Data":
+	{
+		"FirstName":"Segun",
+		"LastName":"Ibidokun",
+		"Email":"segunibidokun@gmail.com",
+		"PhoneNumber":"2347796452370",
+		"BVN":null,
+		"Password":null,
+		"DateOfBirth":"01-JAN-1990",
+		"DateSignedup":"4/27/2020 3:14:34 PM",
+		"AccountNo":"2152960046",
+		"Bank":"Providus Bank",
+		"AccountName":"Segun Ibidokun",
+		"AvailableBalance":0.00
+	}
+}
+
+- Get Balance Response
+
+{
+"Response":
+	{
+		"ResponseCode":"200",
+		"Message":"Balance Retrieved successfully"
+	},
+"Data":
+	{
+		"WalletBalance":900.00,
+		"WalletCurrency":"NGN"
+	}
+}
+
+- Credit Wallet Response
+
+{
+"Response":
+	{
+		"ResponseCode":"200",
+		"Message":"Transaction Completed successfully"
+	},
+"Data":
+	{
+		"AmountCredited":1000.0,
+		"RecipientWalletBalance":1000.00,
+		"SenderWalletBalance":29292.00
+	}
+}
+
+- Debit Wallet Response
+
+{
+"Response":
+	{
+		"ResponseCode":"200",
+		"Message":"Transaction Completed successfully"
+	},
+"Data":
+	{
+		"AmountCredited":100.0,
+		"CustomerWalletBalance":900.00,
+		"DeveloperWalletBalance":29392.00
+	}
+}
+
+-Transactions Response
+
+{
+"Response":
+	{
+		"ResponseCode":"200",
+		"Message":"Transactions Retrieved successfully"
+	},
+"Data":
+	{
+		"Transactions":[]
+	}
+}
+
+- Resolve BVN Response
+
+{
+"FirstName":"JOHN",
+"LastName":"DOE",
+"Email":"test@example.com",
+"PhoneNumber":"0706657415",
+"BVN":"21231485915",
+"DateOfBirth":"11-04-1992",
+"Picture":null,
+"ResponseCode":"200",
+"Message":"Successful"
+}
+
+- Airtime Providers Response
+
+{
+ "ResponseCode":"200",
+ "Providers":[
+ 	{"Code":"airtel","Name":"Airtel"},
+ 	{"Code":"mtn","Name":"MTN"},
+ 	{"Code":"glo","Name":"GLO"},
+ 	{"Code":"etisalat","Name":"Etisalat"}
+ 	]
+ }
+
+ - Airtime Purchase Response
+
+ {
+ 	"TransactionReference":"U301749",
+ 	"ResponseCode":"100",
+ 	"Message":"Airtime purchased successfully"
+ }
