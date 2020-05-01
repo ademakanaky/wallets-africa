@@ -87,6 +87,10 @@ class Config
         $urls->resolvebvndetails = getenv('BVN_RESOLUTION_DETAILS_EP');
         $urls->airtimeproviders = getenv('AIRTIME_PROVIDERS_EP');
         $urls->airtimepurchase = getenv('AIRTIME_PURCHASE_EP');
+        $urls->transactions = getenv('GET_TRANSACTIONS_EP');
+        $urls->bvn = getenv('VERIFY_BVN_EP');
+        $urls->wallets = getenv('GET_WALLETS_EP');
+        $urls->wallet2wallet = getenv('GET_WALLET2WALLET_TXNS_EP');
 
         return $urls;
      }

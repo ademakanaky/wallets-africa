@@ -1,11 +1,16 @@
 <?php 
 
+/**
+* This class defines operations on the sub wallets
+* i.e. on wallets created within the main wallet. 
+*/
+
 namespace Ademakanaky;
 
 class Wallet
 {
 	use Helper;
-    ////generate a sub wallet
+    
     public function createWallet($fname,$lname,$email,$dob){
 
     	$url = $this->endpoints()->generate;
@@ -61,14 +66,6 @@ class Wallet
     	return $this->call($url,'POST',$body);
     }
 
-    /*public function GetBalance($phone)
-    {
-    	$url = $this->endpoints()->wallet_bal;
-    	$body = "phoneNumber=".$phone."&Currency=".$this->setCurrency()."&secretKey=". $this->api_keys()['api_secret'];
-
-    	return $this->call($url,'POST',$body);
-    }*/
-
     public function Credit($phone, $amount)
     {
     	$url = $this->endpoints()->credit;
@@ -120,16 +117,5 @@ class Wallet
 
 		return $this->json_call($url,'POST', $data);
     }
-
-    /*public function VerifyWallet($otp, $phone)
-    {
-    	$url = $this->endpoints()->verify;
-    	$data = new \stdClass();
-    	$data->SecretKey = $this->api_keys()['api_secret'];
-		$data->otp = $otp;
-		$data->phoneNumber = $phone;
-		
-		return $this->json_call($url,'POST', $data);
-    }*/
 
 }

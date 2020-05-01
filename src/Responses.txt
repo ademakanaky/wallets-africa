@@ -178,3 +178,70 @@
  	"ResponseCode":"100",
  	"Message":"Airtime purchased successfully"
  }
+
+
+ - Wallet to Wallet Credit Transactions response
+
+ {
+ 	"Response":{
+ 				"ResponseCode":"200",
+ 				"Message":"Transactions Retrieved successfully"
+ 				},
+ 	"Data":{
+ 				"Transactions":
+ 				[{"Amount":100.00,"Currency":"NGN","Category":"Wallet Transfer","Narration":"Received money from Segun Ibidokun","DateTransacted":"4/27/2020 8:36:16 PM","PreviousBalance":29292.00,"NewBalance":29392.00,"Type":"Credit"},
+ 				{"Amount":80.00,"Currency":"NGN","Category":"Wallet Transfer","Narration":"Received money from tobi mike","DateTransacted":"4/9/2020 5:01:20 AM","PreviousBalance":54653.00,"NewBalance":54733.00,"Type":"Credit"},
+ 				{"Amount":20.00,"Currency":"NGN","Category":"Wallet Transfer","Narration":"Received money from tobi mike","DateTransacted":"4/9/2020 4:14:41 AM","PreviousBalance":54653.00,"NewBalance":54673.00,"Type":"Credit"},
+ 				{"Amount":20.00,"Currency":"NGN","Category":"Wallet Transfer","Narration":"Received money from tobi mike","DateTransacted":"4/9/2020 4:10:23 AM","PreviousBalance":54653.00,"NewBalance":54673.00,"Type":"Credit"},
+ 				{"Amount":20.00,"Currency":"NGN","Category":"Wallet Transfer","Narration":"Received money from tobi mike","DateTransacted":"4/9/2020 3:54:06 AM","PreviousBalance":54653.00,"NewBalance":54673.00,"Type":"Credit"},
+ 				{"Amount":20.00,"Currency":"NGN","Category":"Wallet Transfer","Narration":"Received money from tobi mike","DateTransacted":"4/9/2020 3:52:46 AM","PreviousBalance":54653.00,"NewBalance":54673.00,"Type":"Credit"},
+ 				{"Amount":20.00,"Currency":"NGN","Category":"Wallet Transfer","Narration":"Received money from tobi mike","DateTransacted":"4/9/2020 3:49:13 AM","PreviousBalance":54653.00,"NewBalance":54673.00,"Type":"Credit"},
+ 				{"Amount":20.00,"Currency":"NGN","Category":"Wallet Transfer","Narration":"Received money from tobi mike","DateTransacted":"4/6/2020 12:24:59 AM","PreviousBalance":56653.00,"NewBalance":56673.00,"Type":"Credit"},
+ 				{"Amount":20.00,"Currency":"NGN","Category":"Wallet Transfer","Narration":"Received money from tobi mike","DateTransacted":"4/6/2020 12:23:36 AM","PreviousBalance":56653.00,"NewBalance":56673.00,"Type":"Credit"},
+ 				{"Amount":20.00,"Currency":"NGN","Category":"Wallet Transfer","Narration":"Received money from tobi mike","DateTransacted":"4/6/2020 12:13:08 AM","PreviousBalance":56653.00,"NewBalance":56673.00,"Type":"Credit"},
+ 				{"Amount":20.00,"Currency":"NGN","Category":"Wallet Transfer","Narration":"Received money from tobi mike","DateTransacted":"4/5/2020 11:34:14 PM","PreviousBalance":56653.00,"NewBalance":56673.00,"Type":"Credit"},
+ 				{"Amount":20.00,"Currency":"NGN","Category":"Wallet Transfer","Narration":"Received money from tobi mike","DateTransacted":"4/5/2020 11:32:10 PM","PreviousBalance":56633.00,"NewBalance":56653.00,"Type":"Credit"},
+ 				{"Amount":20.00,"Currency":"NGN","Category":"Wallet Transfer","Narration":"Received money from tobi mike","DateTransacted":"4/5/2020 11:29:52 PM","PreviousBalance":56613.00,"NewBalance":56633.00,"Type":"Credit"},
+ 				{"Amount":20.00,"Currency":"NGN","Category":"Wallet Transfer","Narration":"Received money from tobi mike","DateTransacted":"4/5/2020 11:28:59 PM","PreviousBalance":56593.00,"NewBalance":56613.00,"Type":"Credit"},
+ 				{"Amount":200.00,"Currency":"NGN","Category":"Wallet Transfer","Narration":"Received money from tobi mike","DateTransacted":"4/5/2020 7:15:41 PM","PreviousBalance":56393.00,"NewBalance":56593.00,"Type":"Credit"},
+ 				{"Amount":28000.00,"Currency":"NGN","Category":"Wallet Transfer","Narration":"Received money from LPV FORUM","DateTransacted":"4/3/2020 7:10:00 PM","PreviousBalance":31393.00,"NewBalance":59393.00,"Type":"Credit"},
+ 				{"Amount":26000.00,"Currency":"NGN","Category":"Wallet Transfer","Narration":"Received money from LPV FORUM","DateTransacted":"4/3/2020 6:25:12 PM","PreviousBalance":25593.00,"NewBalance":51593.00,"Type":"Credit"},
+ 				{"Amount":1.00,"Currency":"NGN","Category":"Wallet Transfer","Narration":"Received money from Okiemute Odekuma","DateTransacted":"3/24/2020 12:28:28 PM","PreviousBalance":72157.00,"NewBalance":72158.00,"Type":"Credit"},
+ 				{"Amount":1.00,"Currency":"NGN","Category":"Wallet Transfer","Narration":"Received money from Okiemute Odekuma","DateTransacted":"3/24/2020 12:21:53 PM","PreviousBalance":72159.00,"NewBalance":72160.00,"Type":"Credit"},
+ 				{"Amount":1.00,"Currency":"NGN","Category":"Wallet Transfer","Narration":"Received money from Okiemute Odekuma","DateTransacted":"3/24/2020 12:20:11 PM","PreviousBalance":72158.00,"NewBalance":72159.00,"Type":"Credit"
+ 				}]
+ 			}
+ }
+
+ - Wallet to Wallet Debit Transactions Response
+
+ {
+ 	"Response":{
+ 				"ResponseCode":"200",
+ 				"Message":"Transactions Retrieved successfully"
+ 				},
+ 	"Data":{
+ 			"Transactions":[
+					{"Amount":2000.00,"Currency":"NGN","Category":"Wallet Transfer","Narration":"Sent money to merchtest merch","DateTransacted":"4/30/2020 10:03:22 PM","PreviousBalance":5292.00,"NewBalance":3292.00,"Type":"Debit"},
+					{"Amount":100.00,"Currency":"NGN","Category":"Bank Transfer","Narration":"Sent money to Jude Okafor's bank account.","DateTransacted":"4/30/2020 10:38:12 AM","PreviousBalance":5392.00,"NewBalance":5292.00,"Type":"Debit"},
+					{"Amount":100.00,"Currency":"NGN","Category":"Bank Transfer","Narration":"Sent money to Jude Okafor's bank account.","DateTransacted":"4/30/2020 10:38:04 AM","PreviousBalance":5492.00,"NewBalance":5392.00,"Type":"Debit"},
+					{"Amount":100.00,"Currency":"NGN","Category":"Bank Transfer","Narration":"Sent money to Jude Okafor's bank account.","DateTransacted":"4/30/2020 10:37:50 AM","PreviousBalance":5592.00,"NewBalance":5492.00,"Type":"Debit"},
+					{"Amount":100.00,"Currency":"NGN","Category":"Bank Transfer","Narration":"Sent money to Jude Okafor's bank account.","DateTransacted":"4/30/2020 10:36:49 AM","PreviousBalance":5692.00,"NewBalance":5592.00,"Type":"Debit"},
+					{"Amount":100.00,"Currency":"NGN","Category":"Bank Transfer","Narration":"Sent money to Jude Okafor's bank account.","DateTransacted":"4/30/2020 10:36:38 AM","PreviousBalance":5792.00,"NewBalance":5692.00,"Type":"Debit"},
+					{"Amount":100.00,"Currency":"NGN","Category":"Bank Transfer","Narration":"Sent money to Jude Okafor's bank account.","DateTransacted":"4/30/2020 10:27:07 AM","PreviousBalance":5892.00,"NewBalance":5792.00,"Type":"Debit"},
+					{"Amount":100.00,"Currency":"NGN","Category":"Bank Transfer","Narration":"Sent money to Jude Okafor's bank account.","DateTransacted":"4/30/2020 10:26:50 AM","PreviousBalance":5992.00,"NewBalance":5892.00,"Type":"Debit"},
+					{"Amount":100.00,"Currency":"NGN","Category":"Bank Transfer","Narration":"Sent money to Jude Okafor's bank account.","DateTransacted":"4/30/2020 10:26:08 AM","PreviousBalance":6092.00,"NewBalance":5992.00,"Type":"Debit"},
+					{"Amount":100.00,"Currency":"NGN","Category":"Bank Transfer","Narration":"Sent money to Jude Okafor's bank account.","DateTransacted":"4/30/2020 10:19:51 AM","PreviousBalance":6192.00,"NewBalance":6092.00,"Type":"Debit"},
+					{"Amount":10000.00,"Currency":"NGN","Category":"Bank Transfer","Narration":"Sent money to Jude Okafor's bank account.","DateTransacted":"4/30/2020 8:51:20 AM","PreviousBalance":16192.00,"NewBalance":6192.00,"Type":"Debit"},
+					{"Amount":10000.00,"Currency":"NGN","Category":"Bank Transfer","Narration":"Sent money to Jude Okafor's bank account.","DateTransacted":"4/30/2020 8:51:10 AM","PreviousBalance":26192.00,"NewBalance":16192.00,"Type":"Debit"},
+					{"Amount":100.00,"Currency":"NGN","Category":"Bank Transfer","Narration":"Sent money to Jude Okafor's bank account.","DateTransacted":"4/30/2020 8:47:53 AM","PreviousBalance":26292.00,"NewBalance":26192.00,"Type":"Debit"},
+					{"Amount":100.00,"Currency":"NGN","Category":"Bank Transfer","Narration":"Sent money to Jude Okafor's bank account.","DateTransacted":"4/30/2020 8:47:44 AM","PreviousBalance":26392.00,"NewBalance":26292.00,"Type":"Debit"},
+					{"Amount":100.00,"Currency":"NGN","Category":"Bank Transfer","Narration":"Sent money to Jude Okafor's bank account.","DateTransacted":"4/30/2020 8:47:36 AM","PreviousBalance":26492.00,"NewBalance":26392.00,"Type":"Debit"},
+					{"Amount":100.00,"Currency":"NGN","Category":"Bank Transfer","Narration":"Sent money to Jude Okafor's bank account.","DateTransacted":"4/30/2020 8:43:03 AM","PreviousBalance":26592.00,"NewBalance":26492.00,"Type":"Debit"},
+					{"Amount":100.00,"Currency":"NGN","Category":"Bank Transfer","Narration":"Sent money to Jude Okafor's bank account.","DateTransacted":"4/30/2020 8:42:57 AM","PreviousBalance":26692.00,"NewBalance":26592.00,"Type":"Debit"},
+					{"Amount":100.00,"Currency":"NGN","Category":"Bank Transfer","Narration":"Sent money to Jude Okafor's bank account.","DateTransacted":"4/30/2020 8:42:49 AM","PreviousBalance":26792.00,"NewBalance":26692.00,"Type":"Debit"},
+					{"Amount":100.00,"Currency":"NGN","Category":"Bank Transfer","Narration":"Sent money to Jude Okafor's bank account.","DateTransacted":"4/30/2020 8:42:37 AM","PreviousBalance":26892.00,"NewBalance":26792.00,"Type":"Debit"},
+					{"Amount":100.00,"Currency":"NGN","Category":"Bank Transfer","Narration":"Sent money to Jude Okafor's bank account.","DateTransacted":"4/30/2020 8:39:45 AM","PreviousBalance":26992.00,"NewBalance":26892.00,"Type":"Debit"}
+					]
+			}
+}

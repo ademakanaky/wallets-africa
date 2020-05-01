@@ -5,6 +5,7 @@ namespace Ademakanaky;
 use GuzzleHttp\Client;
 use GuzzleHttp\Exception\ConnectException as ConnectException;
 use GuzzleHttp\Exception\ClientException as ClientException;
+use GuzzleHttp\Exception\ServerException as ServerException;
 
 trait Helper
 {	
@@ -86,13 +87,17 @@ trait Helper
             );
 
             return $response->getBody();
-        }catch(ConnectException | ClientException $e){
+        }catch(ConnectException | ClientException | ServerException $e){
         	$err = get_class($e);
         	switch ($err) {
         		case "GuzzleHttp\Exception\ClientException":
         			return "Invalid verification code.";
         			break;
-        		
+
+        		case "GuzzleHttp\Exception\ServerException":
+                    return "An error has occured";
+                    break;
+
         		default:
         			return "Error in connection to the service. Please try again.";
         			break;
