@@ -9,6 +9,7 @@
         "email": "segunibidokun@gmail.com"
       }
    ],
+  "minimum-stability": "stable",
   "require-dev": {
     "phpunit/phpunit": "^5.5"
   },
